@@ -7,11 +7,8 @@ args['call']
 
 const call = args.call;
 
-if(call == undefined){
-    console.log('Error: no input');
-}
-else if(!(call == 'heads' || call == 'tails')){
-    console.log('Error: input heads or tails');
+if(!(call == 'heads' || call == 'tails')){
+    console.log('Error: no input.\nUsage: node guess-flip --call=[heads|tails]');
 }
 else{
     const result = coinFlip();

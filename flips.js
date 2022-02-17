@@ -10,7 +10,6 @@ const num = args.number || 1;
 console.log(num);
 
 const results = coinFlips(num);
-const count = countFlips(results);
 
-console.log(results)
-console.log(count)
+console.log(results);
+console.log(countFlips(results));
