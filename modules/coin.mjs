@@ -76,10 +76,10 @@ export function countFlips(array) {
   }
 
   if (head == 0) {
-    return {"tails": tails_count};
+    return {"tails": tail};
   }
   else if (tail == 0) {
-    return {"heads": heads_count};
+    return {"heads": head};
   }
 
   return {'heads': head, 'tails': tail}
