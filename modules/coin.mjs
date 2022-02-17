@@ -75,10 +75,10 @@ export function countFlips(array) {
     }
   }
 
-  if (heads_count == 0) {
+  if (head == 0) {
     return {"tails": tails_count};
   }
-  else if (tails_count == 0) {
+  else if (tail == 0) {
     return {"heads": heads_count};
   }
 
