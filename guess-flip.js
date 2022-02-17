@@ -7,8 +7,11 @@ args['call']
 
 const call = args.call;
 
-if(!(call == 'heads' || call == 'tails')){
+if(call == undefined){
     console.log('Error: no input');
+}
+else if(!(call == 'heads' || call == 'tails')){
+    console.log('Error: input heads or tails');
 }
 else{
     const result = coinFlip();

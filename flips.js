@@ -7,6 +7,8 @@ args['number']
 
 const num = args.number || 1;
 
+console.log(num);
+
 const results = coinFlips(num);
 const count = countFlips(results);
 
